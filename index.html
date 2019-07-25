@@ -21,6 +21,10 @@
                 background: #eee;
                 font-size: 18px;
                 transition: 0.2s;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
             }
             ul li:nth-child(odd) {
                 background: #f9f9f9;
